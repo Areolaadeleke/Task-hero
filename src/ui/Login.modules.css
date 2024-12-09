@@ -1,0 +1,110 @@
+/* body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+} */
+
+.form-login {
+  background-color: #096484;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 450px;
+  width: 100%;
+  border-radius: 10px;
+
+  margin-left: 600px;
+  margin-top: 200px;
+  position: fixed;
+}
+
+form h2 {
+  text-align: center;
+  border-bottom: 1px solid white;
+  margin-bottom: 10px;
+  color: white;
+}
+
+form h3 {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+}
+
+form p {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+  color: darkgray;
+}
+
+form a {
+  text-decoration: none;
+  color: white;
+}
+
+form a:hover {
+  color: #52accc;
+}
+
+form button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50vh;
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 15px;
+  margin-top: 10px;
+  color: white;
+}
+
+.form-group-input {
+  width: 50vh;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+}
+
+.form-group input:focus {
+  box-shadow: 1px 1px 2px 2px white;
+}
+
+.error {
+  font-size: 12px;
+  margin-top: 10px;
+  color: red;
+}
+
+.error-sign {
+  font-size: 15px;
+  margin-top: 10px;
+  color: red;
+}
+
+/* sign-form */
+
+.signup-form {
+  background-color: #096484;
+  padding: 20px;
+
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 450px;
+  width: 100%;
+  height: 57vh;
+  margin-left: 600px;
+  margin-top: 170px;
+  position: fixed;
+  border-radius: 8px;
+}
