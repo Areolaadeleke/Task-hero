@@ -39,7 +39,7 @@ function DetailsTask() {
           <li>Presenting the design flow</li>
         </ul>
       </div>
-      <div className="task-div2">
+      <div className="task-div2 god">
         <h6>Assigned Assignment</h6>
         <h4>Creating Awesome Mobile App</h4>
         <h6>

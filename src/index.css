@@ -448,13 +448,6 @@ nav ul {
   border-radius: 50px;
   margin-top: 10px;
   margin-right: 6px;
-
-  /* display: block;
-  width: 6.4rem;
-  aspect-ratio: 3 / 2;
-  object-fit: cover;
-  object-position: center;
-  transform: scale(1.5) translateX(-7px); */
 }
 
 .monthly-div1-inner {
@@ -531,7 +524,14 @@ nav ul {
   border-radius: 10px;
 }
 
-.monthly-div2 h4 {
+.goodd {
+  background-color: #096484;
+  width: 56vh;
+  border-radius: 10px;
+}
+
+.monthly-div2 h4,
+.goodd h4 {
   font-size: 17px;
   color: white;
   margin-left: 12px;
@@ -539,7 +539,8 @@ nav ul {
   align-items: center;
 }
 
-.monthly-div2 h6 {
+.monthly-div2 h6,
+.goodd h6 {
   font-size: 12px;
   margin-left: 12px;
   color: #606d74;
@@ -1042,7 +1043,7 @@ select {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .applayout {
     display: grid;
     grid-template-columns: 1fr;
@@ -1119,6 +1120,7 @@ select {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-left: 20px;
   }
 
   .dash-firstDiv {
@@ -1129,8 +1131,9 @@ select {
   }
 
   .line {
-    height: 35vh;
+    height: 25vh;
     margin-top: 170px;
+    margin-right: 50px;
   }
 
   .dash-firstDiv input {
@@ -1167,6 +1170,10 @@ select {
     font-size: 20px;
   }
 
+  .monthly h2 {
+    margin-left: 10px;
+  }
+
   .monthlyy {
     display: flex;
     align-items: center;
@@ -1174,28 +1181,73 @@ select {
     gap: 15px;
   }
 
+  .monthly-div1 {
+    background-color: #096484;
+    width: 42vh;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+
+  .monthly-div2 {
+    width: 43vh;
+  }
+
+  .monthly-div2-img {
+    width: 40vh;
+  }
+
+  .monthly-div2 input {
+    width: 40vh;
+  }
+
+  .goodd {
+    width: 42vh;
+    margin-right: 20px;
+  }
+  .goodd input {
+    width: 40vh;
+  }
+
+  .goodd img {
+    width: 39vh;
+  }
+
   /* today-task */
 
   .today-task {
     background-color: #096484;
-    width: 55vh;
+    width: 42vh;
     height: 70v;
     border-radius: 5px;
     margin-top: 50px;
+    margin-right: 15px;
+  }
+
+  .today-task img {
+    width: 39vh;
+  }
+
+  .today-task input {
+    width: 40vh;
+  }
+
+  .today-task button {
+    width: 40vh;
+    margin-left: 10px;
   }
 
   /* task */
 
   .task-div1 {
     background-color: #096484;
-    width: 100%;
+    width: 43vh;
     border-radius: 10px;
   }
 
   .task-div1 img {
-    width: 46vh;
+    width: 40vh;
     border-radius: 10px;
-    margin-left: 20px;
+    margin-left: 14px;
     margin-top: 20px;
     height: 40vh;
   }
@@ -1203,7 +1255,7 @@ select {
   .task-div1 .Description p {
     font-size: 17px;
     color: white;
-    margin-left: 18px;
+    margin-left: 15px;
     line-height: 40px;
   }
 
@@ -1214,10 +1266,14 @@ select {
   }
 
   .task-div2 {
-    width: 100%;
-    height: 105vh;
+    width: 40vh;
+    height: 50vh;
     background-color: #096484;
     border-radius: 10px;
+  }
+
+  .task-div2 h4 {
+    font-size: 20px;
   }
 
   .task-div2 p {
@@ -1235,7 +1291,7 @@ select {
   }
 
   .task-div2 input {
-    padding: 60px;
+    padding: 50px;
     margin-left: 12px;
     border: 1px dotted #52accc;
     border-radius: 20px;
@@ -1383,9 +1439,14 @@ select {
     border-radius: 10px;
   }
 
+  .god {
+    width: 43vh;
+    height: 74vh;
+  }
+
   .task-div2 button {
     padding: 10px;
-    width: 47vh;
+    width: 38vh;
     margin-left: 16px;
     margin-top: 20px;
     border-radius: 10px;
@@ -1407,7 +1468,7 @@ select {
 
     border-radius: 5px;
     width: 300px;
-    height: 52vh;
+    height: 40vh;
   }
 
   /* login */
@@ -1418,7 +1479,7 @@ select {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     max-width: 450px;
-    width: 100%;
+    width: 46vh;
 
     margin-left: 2px;
     margin-top: 160px;
@@ -1459,7 +1520,7 @@ select {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50vh;
+    width: 42vh;
     padding: 10px;
     border-radius: 20px;
     margin-top: 15px;
@@ -1477,8 +1538,8 @@ select {
   }
 
   .form-group-input {
-    width: 50vh;
-    border-radius: 20px;
+    width: 42vh;
+    border-radius: 10px;
     border: none;
     padding: 10px;
   }
@@ -1508,7 +1569,7 @@ select {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     max-width: 450px;
     width: 100%;
-    height: 65vh;
+    height: 57vh;
     margin-left: 1px;
     margin-top: 120px;
   }

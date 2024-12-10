@@ -83,7 +83,7 @@ function MonthlyMentors() {
       </div>
       <h2>Upcoming Task</h2>
       <div className="monthlyy">
-        <div className="monthly-div2">
+        <div className=" goodd">
           <img src="netflix.jpg" alt="netflix" className="monthly-div2-img" />
           <h4>Creating Moblie App Design</h4>
           <h6>UI/UX Design</h6>
@@ -105,7 +105,7 @@ function MonthlyMentors() {
           </h4>
         </div>
 
-        <div className="monthly-div2">
+        <div className=" goodd">
           <img src="netflix.jpg" alt="netflix" className="monthly-div2-img" />
           <h4>Creating Moblie App Design</h4>
           <h6>UI/UX Design</h6>
