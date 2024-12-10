@@ -1121,7 +1121,7 @@ select {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-left: 1px;
+    margin-left: 10px;
   }
 
   .dash-firstDiv {
@@ -1190,15 +1190,15 @@ select {
   }
 
   .monthly-div2 {
-    width: 54vh;
+    width: 50vh;
   }
 
   .monthly-div2-img {
-    width: 40vh;
+    width: 46vh;
   }
 
   .monthly-div2 input {
-    width: 40vh;
+    width: 46vh;
   }
 
   .goodd {
@@ -1442,7 +1442,7 @@ select {
 
   .god {
     width: 50vh;
-    height: 78vh;
+    height: 85vh;
   }
 
   .task-div2 button {
