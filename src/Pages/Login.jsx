@@ -3,7 +3,7 @@ import styles from "../ui/Login.modules.css";
 import { useState } from "react";
 import { supabase } from "../client";
 
-function Login({ setToken }) {
+function Login({ setToken, token }) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [emailError, setEmailError] = useState("");
@@ -43,9 +43,11 @@ function Login({ setToken }) {
       navigate("/dashboard");
     }
 
-    //setIsLoading(false);
+    if (!token) {
+      navigate("/login");
+    }
 
-    console.log(data);
+    //setIsLoading(false);
   };
 
   return (

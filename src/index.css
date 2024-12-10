@@ -1121,7 +1121,7 @@ select {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-left: 10px;
+    margin-left: 15px;
   }
 
   .dash-firstDiv {
@@ -1480,7 +1480,7 @@ select {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     max-width: 450px;
-    width: 56.5vh;
+    width: 53vh;
 
     margin-left: 2px;
     margin-top: 160px;
@@ -1521,7 +1521,7 @@ select {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50vh;
+    width: 47vh;
     padding: 10px;
     border-radius: 20px;
     margin-top: 15px;
@@ -1539,7 +1539,7 @@ select {
   }
 
   .form-group-input {
-    width: 50vh;
+    width: 47vh;
     border-radius: 10px;
     border: none;
     padding: 10px;
@@ -1569,7 +1569,7 @@ select {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
-    width: 56.5vh;
+    width: 53vh;
     height: 60vh;
     margin-left: 1px;
     margin-top: 120px;
@@ -1577,6 +1577,6 @@ select {
 
   .signup-form input {
     border-radius: 5px;
-    width: 51vh;
+    width: 48vh;
   }
 }
